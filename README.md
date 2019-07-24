@@ -2,5 +2,5 @@
 
 For MacOS:
 
-vi ~/Library/Application\ Support/Slack/local-settings.json
-Change bootsonic value to never. "bootSonic":"never"
+1) Edit file "~/Library/Application\ Support/Slack/local-settings.json"
+- Change bootsonic value to never. "bootSonic":"never"
