@@ -9,8 +9,8 @@ For MacOS open Terminal and execute commands:
 
 1) Edit file, change bootsonic value ("bootSonic":"never").
 
-##  open ~/Library/Application\ Support/Slack/local-settings.json
+``` open ~/Library/Application\ Support/Slack/local-settings.json ```
 
 2) Get the modified lato.less file.
 
-## curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less
+``` curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less ```
