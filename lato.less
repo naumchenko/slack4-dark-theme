@@ -1,3 +1,5 @@
+// Theme: youWantItDarker after (Leonard Cohen - You Want It Darker)
+
 @font-face {
 	font-family: 'Slack-Lato';
 	font-style: normal;
@@ -237,4 +239,139 @@ pre {
     white-space: nowrap;
     text-overflow: ellipsis;
     background: #1A1D21 !important;
+}
+
+.p-threads_view__default_background--first {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: #0b0d0e !important;
+}
+
+.p-threads_view__default_background {
+    background: #0b0d0e !important;
+    margin: 0 16px;
+}
+
+.p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+    height: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    background: #0b0d0e !important;
+    padding-left: 12px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.p-threads_view .c-message_kit__thread_message .c-message_kit__gutter, .p-threads_view .c-message_kit__thread_message .c-message_kit__tombstone {
+    padding-left: 12px;
+    padding-right: 20px;
+    background: #0b0d0e !important;
+}
+
+.p-message_pane__unread_banner {
+    display: flex;
+    flex: 1;
+    background: #1c1c1c !important;
+    border-radius: 6px;
+    color: #00d023 !important;
+    z-index: 200;
+}
+
+.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
+    box-shadow: 0 32px #1A1D21 !important;;
+    border-bottom: 0px solid #1A1D21 !important;
+    height: 32px;
+    margin-top: -32px;
+}
+
+
+#flex_contents .heading {
+    border-bottom: .0625rem solid #ddd;
+    position: relative;
+    z-index: 50;
+    background: #1A1D21 !important;
+    padding: 19px 12px;
+}
+
+
+#details_tab .channel_page_section {
+    background: #1A1D21 !important;
+    position: relative;
+    border-top: 1px solid #ddd;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 3px;
+    min-height: 61px;
+    max-height: 61px;
+    overflow-y: hidden;
+    transition: max-height .3s ease;
+}
+
+.c-timestamp__label {
+    color: #138100 !important;
+}
+
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
+    color: #00e93f !important;
+    font-weight: 700;
+}
+
+.flex_content_scroller {
+    outline: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 1% 0 0;
+    margin: 0;
+    word-wrap: break-word;
+    flex: 1;
+  background: #1A1D21 !important;
+}
+
+
+ts-message {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    color: #00ff5e !important;
+    line-height: 22px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    word-wrap: break-word;
+    padding: 1px 40px 2px 0;
+}
+
+.mention_day_container_div .day_divider:before {
+    position: absolute;
+    margin-bottom: .75rem;
+    border-bottom: 1px solid #00e93f !important;
+    background: #1A1D21 !important;
+    height: .75rem;
+    width: 100%;
+    left: 0;
+    content: '';
+}
+
+#flex_contents .subheading:not(:empty) p {
+    padding: .5rem .75rem;
+    margin: 0;
+    background: #1A1D21 !important;
+}
+
+
+.p-flexpane__body--empty {
+    align-items: center;
+    background-color: #000 !important;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 24px;
+    text-align: center;
 }
