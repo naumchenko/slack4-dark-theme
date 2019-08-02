@@ -3,7 +3,13 @@
 
 Theme Name: youWantItDarker
 
-For Slack 4.0.2
+
+
+
+```
+Works for Slack 4.0.2
+!!! On every update pushed by Slack, "local-settings.json" and "lato.less", i.e on everyupdate repeat the 2 steps.
+```
 
 For MacOS open Terminal and execute commands:
 
