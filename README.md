@@ -1,8 +1,13 @@
-# slack4-dark-theme with lots of matrix colors. (edit colors with find/replace all)
+# slack4 dark theme with green like terminal/matrix colors. 
+(hack and edit colors with find/replace all)
 
-For MacOS:
+Theme Name: youWantItDarker
 
-1) Edit file "~/Library/Application\ Support/Slack/local-settings.json"
-- Change bootsonic value to never. "bootSonic":"never"
+For Slack 4.0.2
 
-2) curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less
+For MacOS open Terminal and execute commands:
+
+1) Edit file, change bootsonic value ("bootSonic":"never").
+  "open ~/Library/Application\ Support/Slack/local-settings.json"
+
+2) "curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less"
