@@ -15,8 +15,8 @@ On every update pushed by Slack, "local-settings.json" setting  bootsonic change
 1) Run in Terminal
 
 ```
-"cd ~/Library/Application\ Support/Slack/; sed -i '' "s/always/never/g" local-settings.json; curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less"
+cd ~/Library/Application\ Support/Slack/; sed -i '' "s/always/never/g" local-settings.json; curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less
 ```
 
-2) Restart your slack
+2) Restart your Slack
 
