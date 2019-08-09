@@ -20,3 +20,7 @@ cd ~/Library/Application\ Support/Slack/; sed -i '' "s/always/never/g" local-set
 
 2) Restart your Slack
 
+
+To revert to the original theme edit "local-settings.json" file, change value to "bootSonic":"always", save, restart Slack.
+
+``` open ~/Library/Application\ Support/Slack/local-settings.json ``` 
