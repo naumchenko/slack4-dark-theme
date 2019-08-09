@@ -4,19 +4,19 @@
 Theme Name: youWantItDarker
 
 
-
+For MacOS install command:
 
 ```
-Works for Slack 4.0.2
-!!! On every update pushed by Slack, "local-settings.json" and "lato.less", i.e on every update repeat the 2 steps.
+On every update pushed by Slack, "local-settings.json" setting  bootsonic changed to ("bootSonic":"always").
+
+!!! If Dark Theme stopped working, re-run the command in Terminal, restart Slack.!!!
 ```
 
-For MacOS open Terminal and execute commands:
+1) Run in Terminal
 
-1) Edit file, change bootsonic value ("bootSonic":"never").
+```
+"cd ~/Library/Application\ Support/Slack/; sed -i '' "s/always/never/g" local-settings.json; curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less"
+```
 
-``` open ~/Library/Application\ Support/Slack/local-settings.json ```
+2) Restart your slack
 
-2) Get the modified lato.less file.
-
-``` curl https://raw.githubusercontent.com/naumchenko/slack4-dark-theme/master/lato.less | tee /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/lato.less ```
