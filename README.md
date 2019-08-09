@@ -1,4 +1,4 @@
-# slack4 dark theme with green like terminal/matrix colors. 
+# Slack4 dark theme with green like terminal/matrix colors. 
 (hack and edit colors with find/replace all)
 
 Theme Name: youWantItDarker
@@ -20,6 +20,14 @@ cd ~/Library/Application\ Support/Slack/; sed -i '' "s/always/never/g" local-set
 
 2) Restart your Slack
 
+
+
+
+
+
+
+
+# Revert changes:
 
 To revert to the original theme edit "local-settings.json" file, change value to "bootSonic":"always", save, restart Slack.
 
