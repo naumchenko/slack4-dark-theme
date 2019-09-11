@@ -22,9 +22,9 @@ cd ~/Library/Application\ Support/Slack/; sed -i '' "s/always/never/g" local-set
 
 
 
-
-
-
+```
+cd ~/Library/Application\ Support/Slack/; sed -i '' "s/once/never/g" local-settings.json; open -a /Applications/Slack.app
+```
 
 
 # Revert changes:
